@@ -8,38 +8,46 @@ export function Logo(props) {
   return (
     <div id="Logo">
       <p className="icon">{props.children}</p>
-      <p>{props.text}</p>
+      <p className="logo-Title">{props.text}</p>
       <p className="icon">{props.children}</p>
     </div>
   );
 }
 
-const ParentPai = ({ children }) => {
-  return <div className="">{children}</div>;
-};
-const Children1 = (props) => {
-  <Link to="/" className="link">
-    {props.children}
-  </Link>;
-};
-const Children2 = (props) => {
-  <Link to="" className="link">
-    {props.children}
-  </Link>;
-};
-const Children3 = (props) => {
-  <Link to="" className="link">
-    {props.children}
-  </Link>;
-};
-const Children4 = (props) => {
-  <Link to="" className="link"></Link>;
-};
+export function Children1(props) {
+  return (
+    <Link to="/" className="link">
+      {props.children}
+    </Link>
+  );
+}
+
+export function Children2(props) {
+  return (
+    <Link to="" className="link">
+      {props.children}
+    </Link>
+  );
+}
+export function Children3(props) {
+  return (
+    <Link to="" className="link">
+      {props.children}
+    </Link>
+  );
+}
+export function Children4(props) {
+  return (
+    <Link to="" className="link">
+      {props.children}
+    </Link>
+  );
+}
 
 export function HeaderDetalhes(props) {
   return (
     <header id="header">
-      <p className="header-Logo">{props.children}</p>
+      <span className="header-Logo">{props.children}</span>
       <p className="header-Detalhes">
         <ul className="header-Ul">
           <p className="ul-Frase">CASA CLAUD </p>
@@ -48,8 +56,8 @@ export function HeaderDetalhes(props) {
       </p>
       <p className="header-URL">@casa_claud</p>
       <p className="header-Icons">
-        <BsBrowserChrome></BsBrowserChrome>
-        <IoIosGlobe></IoIosGlobe>
+        <BsBrowserChrome style={{ fontSize: "2rem" }}></BsBrowserChrome>
+        <IoIosGlobe style={{ fontSize: "2rem" }}></IoIosGlobe>
       </p>
     </header>
   );

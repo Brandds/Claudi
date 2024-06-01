@@ -11,10 +11,6 @@ import {
 import "../telaincial/index.css";
 import { IoIosStarOutline } from "react-icons/io";
 
-function MenuOp() {
-  return <section id="section"></section>;
-}
-
 export default function () {
   return (
     <div className="container">
@@ -25,22 +21,22 @@ export default function () {
       </HeaderDetalhes>
       <article className="container-Artitcle">
         <Children1>
-          <Button></Button>
+          <Button text="PROMOÇÃO"></Button>
         </Children1>
       </article>
       <article className="container-Artitcle">
         <Children2>
-          <Button></Button>
+          <Button text="Produto"></Button>
         </Children2>
       </article>
       <article className="container-Artitcle">
         <Children3>
-          <Button></Button>
+          <Button text="SITE"></Button>
         </Children3>
       </article>
       <article className="container-Artitcle">
         <Children4>
-          <Button text=""></Button>
+          <Button text="GRUPO"></Button>
         </Children4>
       </article>
     </div>
