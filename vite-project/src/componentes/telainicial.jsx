@@ -2,6 +2,7 @@ import React from "react";
 import "../css/telainicial.css";
 import { BsBrowserChrome } from "react-icons/bs";
 import { IoIosGlobe } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 export function Logo(props) {
   return (
@@ -16,19 +17,24 @@ export function Logo(props) {
 const ParentPai = ({ children }) => {
   return <div className="">{children}</div>;
 };
-
-/*const Children1 = (props) => {
-  <article className="">{props.children}</article>;
+const Children1 = (props) => {
+  <Link to="/" className="link">
+    {props.children}
+  </Link>;
 };
 const Children2 = (props) => {
-  <article className="">{props.children}</article>;
+  <Link to="" className="link">
+    {props.children}
+  </Link>;
 };
 const Children3 = (props) => {
-  <article className="">{props.children}</article>;
+  <Link to="" className="link">
+    {props.children}
+  </Link>;
 };
 const Children4 = (props) => {
-  <article className="">{props.children}</article>;
-}*/
+  <Link to="" className="link"></Link>;
+};
 
 export function HeaderDetalhes(props) {
   return (
