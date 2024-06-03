@@ -7,7 +7,7 @@ function AppRouter() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Telaincial></Telaincial>}></Route>
-        <Route path="" element=""></Route>
+        <Route path="/telaprincipal" element=""></Route>
         <Route path="" element=""></Route>
       </Routes>
     </BrowserRouter>
