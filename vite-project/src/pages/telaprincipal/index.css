@@ -1,1 +1,27 @@
 @import url("../../css/padrao.css");
+body {
+  overflow: scroll;
+  height: 100%;
+}
+.Icon {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  display: flex;
+  width: 100vw;
+  height: 15vh;
+}
+.Icon:hover {
+  background-color: var(--fontColor-write);
+}
+
+#container {
+  height: 100%;
+}
+#section-Principal {
+  padding: 10px;
+  background-color: rgb(188, 143, 143, 0.6);
+}
+.carrousel {
+  height: 10vh;
+}

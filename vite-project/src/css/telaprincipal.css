@@ -1,0 +1,42 @@
+@import url("padrao.css");
+body {
+  overflow: scroll;
+}
+.link {
+  position: fixed;
+  top: 70px;
+  z-index: 1000;
+  display: flex;
+  width: 100vw;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.link-Link {
+  color: var(--fontColor-black);
+  padding: 10px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+#Logo {
+  height: 8vh;
+}
+#carroussel {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #fff;
+  width: 100%;
+  height: 10vw;
+}
+.teste {
+  width: 100%;
+  height: 30vw;
+  background-color: #f99;
+  overflow: hidden;
+}
+.imagem-Carrousel {
+  width: 100%;
+  height: 100%;
+}

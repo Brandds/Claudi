@@ -18,14 +18,14 @@
 
 #header {
   width: 100%;
-  gap: 5px;
+  height: 25%;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 .header-Detalhes {
-  width: 100%;
+  width: 50%;
+  height: 5%;
 }
 #header .header-Ul {
   width: 100%;
@@ -53,12 +53,20 @@ li {
 .header-Icons > * :hover {
   color: var(--fontColor-black);
 }
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
 /*ICONS REACT---------------------------*/
 
 /*BTN-----------------------------------*/
 
 .button-Link {
   position: relative;
+  z-index: 1000;
   padding: 10px 20px;
   border-radius: 7px;
   background-color: var(--fontColor-write);
@@ -81,7 +89,7 @@ li {
   background: var(--fontColor-pink);
   box-shadow: 0 0 30px 5px var(--fontColor-pink);
   border: 1px solid var(--fontColorBorder-thistle);
-  color: var(--fontColor-write);
+  color: var(--fontColor-goldEnrod);
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;

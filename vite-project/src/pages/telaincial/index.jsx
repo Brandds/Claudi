@@ -3,9 +3,6 @@ import {
   HeaderDetalhes,
   Logo,
   Children1,
-  Children2,
-  Children3,
-  Children4,
   Button,
 } from "../../componentes/telainicial";
 import "../telaincial/index.css";
@@ -19,26 +16,18 @@ export default function () {
           <IoIosStarOutline></IoIosStarOutline>
         </Logo>
       </HeaderDetalhes>
-      <article className="container-Artitcle">
-        <Children1>
-          <Button text="PROMOÇÃO"></Button>
-        </Children1>
-      </article>
-      <article className="container-Artitcle">
-        <Children2>
-          <Button text="Produto"></Button>
-        </Children2>
-      </article>
-      <article className="container-Artitcle">
-        <Children3>
-          <Button text="SITE"></Button>
-        </Children3>
-      </article>
-      <article className="container-Artitcle">
-        <Children4>
-          <Button text="GRUPO"></Button>
-        </Children4>
-      </article>
+      <Children1 andress="telaprincipal">
+        <Button text="PROMOÇÃO"></Button>
+      </Children1>
+      <Children1 andress="telaprincipal">
+        <Button text="SITE"></Button>
+      </Children1>
+      <Children1 andress="telaprincipal">
+        <Button text="GRUPO"></Button>
+      </Children1>
+      <Children1 andress="telaprincipal">
+        <Button text="LOJINHA"></Button>
+      </Children1>
     </div>
   );
 }

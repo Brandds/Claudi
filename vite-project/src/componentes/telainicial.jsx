@@ -16,31 +16,11 @@ export function Logo(props) {
 
 export function Children1(props) {
   return (
-    <Link to="/" className="link">
-      {props.children}
-    </Link>
-  );
-}
-
-export function Children2(props) {
-  return (
-    <Link to="" className="link">
-      {props.children}
-    </Link>
-  );
-}
-export function Children3(props) {
-  return (
-    <Link to="" className="link">
-      {props.children}
-    </Link>
-  );
-}
-export function Children4(props) {
-  return (
-    <Link to="" className="link">
-      {props.children}
-    </Link>
+    <section className="section">
+      <Link to={props.andress} className="">
+        {props.children}
+      </Link>
+    </section>
   );
 }
 

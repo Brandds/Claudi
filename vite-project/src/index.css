@@ -6,8 +6,7 @@
 }
 body {
   background-color: #d3d3d3;
+  width: 100%;
   display: flex;
-  justify-content: center;
-
-  height: 100vh;
+  flex-direction: column;
 }
